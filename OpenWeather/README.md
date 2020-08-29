@@ -1,13 +1,16 @@
-# K2 TypeScript Broker Template
+# K2 TypeScript Broker for OpenWeather API
 
-This is demonstrates best-practices for developing a K2 Broker using TypeScript.
+This is a sample JSSP Broker for OpenWeather and is not an supported by K2.  Feel free to use/improve/enhance. Use at your own risks. Happy coding. 
+
 
 # Features
 
-  - Full object model intellisense for making development easier
-  - Sample broker code that accesses jsonplaceholder.
-  - Sample unit tests with mocks and code coverage.
-  - RollupJS configuration for TypeScript.
+  This version of the ServiceNow broker supports the following ServiceNow Incident interfaces:
+ - ListIncidents
+ - Get Current Weather (City, Units)    ---- Units: Imperial/Metric
+ 
+ # Service Keys and authentication
+ This broker has a service key called "API Key" which you need to obtain OpenWeather.
 
 ## Getting Started
 
