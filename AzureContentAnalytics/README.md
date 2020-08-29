@@ -6,12 +6,12 @@ This is a sample JSSP Broker for Azure Analytics and is not an supported by K2. 
 # Features
 
   This version of the Azure Analytics broker supports the following interfaces:
-  - Text Analytics:
-   -- ModerateText (based on content moderator v1.0 API)
-   -- GetSentiment (based on text analytics v3.0 API)
-  - Image Analytics: (based on vision analytics v2.0 API)
-   -- ListCelebrities
-   -- ListTags
+  - **Text Analytics:**
+    - ModerateText (based on content moderator v1.0 API)
+    - GetSentiment (based on text analytics v3.0 API)
+  - **Image Analytics:** (based on vision analytics v2.0 API)
+    - ListCelebrities
+    - ListTags
  
  # Service Keys and authentication
  This broker has a service key called "Subscription Key" which you need to obtain from Azure. This is the subscription key for both Text and Image Analytics resources.
